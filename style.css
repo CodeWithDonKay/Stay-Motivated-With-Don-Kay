@@ -1,76 +1,71 @@
 
-body{
-    font-family: 'Libre Baskerville' serif;
+/* Basic styles */
+body {
+    font-family: 'Libre Baskerville', serif;
     background-color: black;
     color: white;
-    margin: 0%;
-    padding: 0%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
-/* Sunset CSS*/
+/* Sunset Section */
+.sunset-container {
+    text-align: center;
+    width: 80%;  /* Adjusted for better responsiveness */
+    margin: 50px auto;  /* Center the container with automatic left and right margins */
+    padding: 20px;
+}
 
-.sunset-h1{
+.sunset-h1 {
     font-size: 2.5rem;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
 
-.sunset-container{
-    text-align: center;
-    width: 50%;
-    margin-left: 0%;
-    padding: 0%;
-}
-
-.sunset-quote{
+.sunset-quote {
     font-size: 1.5rem;
     margin-bottom: 30px;
 }
 
-.sunset-image{
-    width: 400px;
+.sunset-image {
+    width: 100%;  /* Responsive image */
+    max-width: 600px;  /* Max size for larger screens */
     border: 5px solid white;
+    border-radius: 5px;
 }
 
-/* Warthog CSS*/
-
-/* Style for the container */
+/* Warthog Section */
 .warthog-container {
-    width: 50%;
-    margin-top: 70%;
-    margin-left: -50%;
-    padding: 0%;
     text-align: center;
+    width: 80%;  /* Consistent container size */
+    margin: 50px auto;  /* Centered and spaced */
+    padding: 20px;
 }
 
-/* Style for the warthog image */
-.warthog-image {
-    width: 400px;
-    border: 5px solid whitesmoke;
-}
-
-/* Style for the heading */
 .warthog-h1 {
     font-size: 2.5rem;
-    margin-bottom: 15px;
     text-transform: uppercase;
-    color: #B8001F; /* Highlighted color for the title */
+    color: #B8001F;
+    margin-bottom: 15px;
 }
 
-/* Style for the quote */
+.warthog-image {
+    width: 100%;  /* Responsive image */
+    max-width: 600px;  /* Max size for larger screens */
+    border: 5px solid whitesmoke;
+    border-radius: 5px;
+}
+
 .warthog-quote {
     font-size: 1.5rem;
     margin-bottom: 20px;
+    line-height: 1.6;
 }
-.speak{
+
+/* Style for the speaker name */
+.speak {
     color: #FFF100;
 }
-
-
 
 
 
