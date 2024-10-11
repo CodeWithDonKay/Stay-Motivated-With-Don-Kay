@@ -28,7 +28,7 @@ body {
 }
 
 .sunset-image {
-    width: 100%;  /* Responsive image */
+    width: 95%;  /* Responsive image */
     max-width: 600px;  /* Max size for larger screens */
     border: 5px solid white;
     border-radius: 5px;
@@ -50,7 +50,7 @@ body {
 }
 
 .warthog-image {
-    width: 100%;  /* Responsive image */
+    width: 95%;  /* Responsive image */
     max-width: 600px;  /* Max size for larger screens */
     border: 5px solid whitesmoke;
     border-radius: 5px;
